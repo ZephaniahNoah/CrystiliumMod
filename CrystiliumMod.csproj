@@ -16,4 +16,66 @@
     <None Include="Content\Gores\Crystal_Archer_Gore_1.png" />
     <None Include="Content\Gores\Crystal_Archer_Gore_2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="tModLoader">
+      <HintPath>..\..\..\..\..\..\..\..\mnt\Storage\Steam Games\steamapps\common\tModLoader\tModLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>..\..\..\..\..\..\..\..\mnt\Storage\Steam Games\steamapps\common\tModLoader\dotnet\6.0.0\shared\Microsoft.NETCore.App\6.0.0\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="TerrariaHooks">
+      <HintPath>..\..\..\..\..\..\..\..\mnt\Storage\Steam Games\steamapps\common\tModLoader\Libraries\TerrariaHooks\0.0.0.0\TerrariaHooks.dll</HintPath>
+    </Reference>
+    <Reference Include="FNA">
+      <HintPath>..\..\..\..\..\..\..\..\mnt\Storage\Steam Games\steamapps\common\Terraria\FNA.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Posix">
+      <HintPath>..\..\..\..\..\..\..\..\mnt\Storage\Steam Games\steamapps\common\Terraria\Mono.Posix.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>..\..\..\..\..\..\..\..\mnt\Storage\Steam Games\steamapps\common\Terraria\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>..\..\..\..\..\..\..\..\mnt\Storage\Steam Games\steamapps\common\Terraria\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="SteelSeriesEngineWrapper">
+      <HintPath>..\..\..\..\..\..\..\..\mnt\Storage\Steam Games\steamapps\common\Terraria\SteelSeriesEngineWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <HintPath>..\..\..\..\..\..\..\..\mnt\Storage\Steam Games\steamapps\common\Terraria\System.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>..\..\..\..\..\..\..\..\mnt\Storage\Steam Games\steamapps\common\Terraria\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>..\..\..\..\..\..\..\..\mnt\Storage\Steam Games\steamapps\common\Terraria\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\..\mnt\Storage\Steam Games\steamapps\common\Terraria\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>..\..\..\..\..\..\..\..\mnt\Storage\Steam Games\steamapps\common\Terraria\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>..\..\..\..\..\..\..\..\mnt\Storage\Steam Games\steamapps\common\Terraria\System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>..\..\..\..\..\..\..\..\mnt\Storage\Steam Games\steamapps\common\Terraria\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security">
+      <HintPath>..\..\..\..\..\..\..\..\mnt\Storage\Steam Games\steamapps\common\Terraria\System.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>..\..\..\..\..\..\..\..\mnt\Storage\Steam Games\steamapps\common\Terraria\System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>..\..\..\..\..\..\..\..\mnt\Storage\Steam Games\steamapps\common\Terraria\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>..\..\..\..\..\..\..\..\mnt\Storage\Steam Games\steamapps\common\Terraria\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <HintPath>..\..\..\..\..\..\..\..\mnt\Storage\Steam Games\steamapps\common\Terraria\WindowsBase.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>

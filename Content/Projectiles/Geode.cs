@@ -14,7 +14,7 @@ namespace CrystiliumMod.Content.Projectiles
 			Projectile.timeLeft = 600;
 		}
 
-		public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
+		public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
 		{
 			if (Projectile.penetrate <= 1)
 			{

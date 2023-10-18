@@ -4,6 +4,7 @@ using Terraria;
 using Terraria.DataStructures;
 using Terraria.Enums;
 using Terraria.ID;
+using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
@@ -34,10 +35,10 @@ namespace CrystiliumMod.Content.Tiles
 			TileObjectData.addAlternate(0);
 			TileObjectData.addTile(Type);
 			AddToArray(ref TileID.Sets.RoomNeeds.CountsAsTorch);
-			ModTranslation name = CreateMapEntryName();
-			name.SetDefault("Torch");
+			LocalizedText name = CreateMapEntryName();
+			//name.SetDefault("Torch");
 			AddMapEntry(new Color(250, 140, 250), name);
-			ItemDrop = ModContent.ItemType<Items.Placeable.CrystalWoodTorch>();
+			//ItemDrop = ModContent.ItemType<Items.Placeable.CrystalWoodTorch>();
 			TileID.Sets.DisableSmartCursor[Type] = true;
 			AdjTiles = new int[] { TileID.Torches };
 			TileID.Sets.Torch[Type] = true;

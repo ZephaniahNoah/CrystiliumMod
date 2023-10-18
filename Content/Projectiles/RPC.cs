@@ -13,7 +13,7 @@ namespace CrystiliumMod.Content.Projectiles
 
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Rocket Propelled Crystal");
+			//DisplayName.SetDefault("Rocket Propelled Crystal");
 			Main.projFrames[Projectile.type] = 4; //redundant, since using custom drawing anyway
 		}
 

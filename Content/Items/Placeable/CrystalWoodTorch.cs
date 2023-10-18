@@ -49,10 +49,10 @@ namespace CrystiliumMod.Content.Items.Placeable
 			}
 		}
 
-		public override void AutoLightSelect(ref bool dryTorch, ref bool wetTorch, ref bool glowstick)
-		{
-			dryTorch = true;
-		}
+		// public override void AutoLightSelect(ref bool dryTorch, ref bool wetTorch, ref bool glowstick)
+		// {
+		// 	dryTorch = true;
+		// }
 
 		public override void AddRecipes()
 		{

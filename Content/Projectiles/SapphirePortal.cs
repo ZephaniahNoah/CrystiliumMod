@@ -8,7 +8,7 @@ namespace CrystiliumMod.Content.Projectiles //We need this to basically indicate
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Sapphire Portal");
+			//DisplayName.SetDefault("Sapphire Portal");
 			Main.projFrames[Projectile.type] = 2;
 		}
 

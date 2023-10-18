@@ -9,7 +9,7 @@ namespace CrystiliumMod.Content.Projectiles
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("StardustCrystal");
+			//DisplayName.SetDefault("StardustCrystal");
 		}
 
 		public override void SetDefaults()

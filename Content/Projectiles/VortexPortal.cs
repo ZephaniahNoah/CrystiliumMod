@@ -10,7 +10,7 @@ namespace CrystiliumMod.Content.Projectiles //We need this to basically indicate
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Vortex Portal");
+			//DisplayName.SetDefault("Vortex Portal");
 			Main.projFrames[Projectile.type] = 4;
 		}
 

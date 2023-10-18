@@ -10,7 +10,7 @@ namespace CrystiliumMod.Content.Projectiles
 
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Crystishae");
+			//DisplayName.SetDefault("Crystishae");
 		}
 
 		public override void SetDefaults()

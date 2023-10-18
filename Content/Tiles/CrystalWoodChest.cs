@@ -39,14 +39,14 @@ namespace CrystiliumMod.Content.Tiles
 			TileObjectData.newTile.AnchorBottom = new AnchorData(AnchorType.SolidTile | AnchorType.SolidWithTop | AnchorType.SolidSide, TileObjectData.newTile.Width, 0);
 			TileObjectData.addTile(Type);
 
-			ModTranslation name = CreateMapEntryName();
-			name.SetDefault("Crystal Wood Chest");
+			LocalizedText name = CreateMapEntryName();
+			//name.SetDefault("Crystal Wood Chest");
 			AddMapEntry(new Color(250, 140, 250), name, MapChestName);
 			if (!Main.dedServ)
 				DustType = Mod.Find<ModDust>("CrystalDust").Type;
 			AdjTiles = new int[] { TileID.Containers };
-			ChestDrop = ModContent.ItemType<Items.Placeable.CrystalWoodChest>();
-			ContainerName.SetDefault("Crystal Wood Chest");
+			//ChestDrop = ModContent.ItemType<Items.Placeable.CrystalWoodChest>();
+			//ContainerName.SetDefault("Crystal Wood Chest");
 		}
 
 		public string MapChestName(string name, int i, int j)
@@ -78,11 +78,11 @@ namespace CrystiliumMod.Content.Tiles
 			num = 1;
 		}
 
-		public override void KillMultiTile(int i, int j, int frameX, int frameY)
-		{
-			Item.NewItem(new EntitySource_TileBreak(i, j), new Vector2(i,j) * 16, 32, 32, ChestDrop);
-			Chest.DestroyChest(i, j);
-		}
+		// public override void KillMultiTile(int i, int j, int frameX, int frameY)
+		// {
+		// 	Item.NewItem(new EntitySource_TileBreak(i, j), new Vector2(i,j) * 16, 32, 32, ChestDrop);
+		// 	Chest.DestroyChest(i, j);
+		// }
 
 		public override bool RightClick(int i, int j)
 		{

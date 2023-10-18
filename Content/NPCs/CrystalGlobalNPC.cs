@@ -34,15 +34,14 @@ namespace CrystiliumMod.Content.NPCs
 			}
 		}
 
-		public override void SetupShop(int type, Chest shop, ref int nextSlot)
+		public override void ModifyShop(NPCShop shop)
 		{
 			Player player = Main.LocalPlayer;
-			if (type == NPCID.Cyborg)
+			if (shop.NpcType == NPCID.Cyborg)
 			{
 				if (player.HasItem(ModContent.ItemType<Items.Weapons.Shatterocket>()))
 				{
-					shop.item[nextSlot].SetDefaults(ModContent.ItemType<Items.RPC>());
-					nextSlot++;
+					shop.Add(ModContent.ItemType<Items.RPC>());
 				}
 			}
 		}

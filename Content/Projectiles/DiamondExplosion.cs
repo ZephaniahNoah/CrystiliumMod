@@ -7,7 +7,7 @@ namespace CrystiliumMod.Content.Projectiles
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Diamond Explosion");
+			//DisplayName.SetDefault("Diamond Explosion");
 			Main.projFrames[Projectile.type] = 7;
 		}
 

@@ -20,7 +20,7 @@ namespace CrystiliumMod.Content.Tiles
 			Main.tileBlockLight[Type] = true;
 			Main.tileLighted[Type] = false;
 			DustType = ModContent.DustType<Dusts.Sparkle>();
-			ItemDrop = ModContent.ItemType<Items.Placeable.GlowingCrystal>();
+			//ItemDrop = ModContent.ItemType<Items.Placeable.GlowingCrystal>();
 			AddMapEntry(new Color(200, 200, 200));
 			TileObjectData.newTile.CoordinateHeights = new int[]
 			{

@@ -5,344 +5,949 @@ Mods: {
 			BossDescription: 在背包中拥有{0}时右键水晶喷泉以召唤
 		}
 
-        BuffName: {
-            CrystalCharm: 谐振
-            CrystalHealing: 水晶之愈
-            CrystalLeak: 水晶外泄
-            DragonBoost: 巨龙之怒
-            Dustbreak: 尘爆
-            GraniteBuff: 花岗岩皮肤
-            MarbleBuff: 大理石光环
-            QuartzDisease: 石英病
-            ThrowingBoost: 投掷增幅
-            Twilight: 黄昏
+		BuffName: {
+			CrystalCharm: 谐振
+			CrystalHealing: 水晶之愈
+			CrystalLeak: 水晶外泄
+			DragonBoost: 巨龙之怒
+			Dustbreak: 尘爆
+			GraniteBuff: 花岗岩皮肤
+			MarbleBuff: 大理石光环
+			QuartzDisease: 石英病
+			ThrowingBoost: 投掷增幅
+			Twilight: 黄昏
 		}
 
-        BuffDescription: {
-            CrystalCharm: +1%魔法伤害
-            CrystalHealing: 我觉得精神焕发!
-            CrystalLeak: 创造危险水晶
-            DragonBoost: "'让巨龙吞噬你'"
-            Dustbreak: +20%暴击伤害
-            GraniteBuff: 硬如岩石
-            MarbleBuff: 轻如鸿毛
-            QuartzDisease: "'Keter.'"
-            ThrowingBoost: +10%投掷伤害
-            Twilight: 在夜晚时+7%伤害
-        }
+		BuffDescription: {
+			CrystalCharm: +1%魔法伤害
+			CrystalHealing: 我觉得精神焕发!
+			CrystalLeak: 创造危险水晶
+			DragonBoost: "'让巨龙吞噬你'"
+			Dustbreak: +20%暴击伤害
+			GraniteBuff: 硬如岩石
+			MarbleBuff: 轻如鸿毛
+			QuartzDisease: "'Keter.'"
+			ThrowingBoost: +10%投掷伤害
+			Twilight: 在夜晚时+7%伤害
+		}
 
-        ItemName: {
-            AmberRing: 琥珀戒指
-            AmethystRing: 紫晶戒指
-            CrystalJewel: 水晶宝石
-            CrystalMonocle: 水晶单片镜
-            EmeraldRing: 翡翠戒指
-            RubyRing: 红宝石戒指
-            SapphireRing: 蓝宝石戒指
-            TopazRing: 黄玉戒指
+		ItemName: {
+			AmberRing: 琥珀戒指
+			AmethystRing: 紫晶戒指
+			CrystalJewel: 水晶宝石
+			CrystalMonocle: 水晶单片镜
+			EmeraldRing: 翡翠戒指
+			RubyRing: 红宝石戒指
+			SapphireRing: 蓝宝石戒指
+			TopazRing: 黄玉戒指
+			CrystalBreastplate: 水晶胸甲
+			CrystalHelm: 水晶头盔
+			CrystalLeggings: 水晶护胫
+			CrystalMask: 水晶之王面具
+			CrystiliumBreastplate: 晶岩胸甲
+			CrystiliumGreaves: 晶岩护胫
+			CrystiliumHelmet: 晶岩头盔
+			HardCrystalBreastplate: 硬化水晶胸甲
+			HardCrystalHelm: 硬化水晶头盔
+			HardCrystalLeggings: 硬化水晶护胫
+			BootlegFountain: 盗版水晶喷泉
+			CrystalBlock: 水晶块
+			CrystalChest: 水晶箱
+			CrystalWall: 水晶墙
+			CrystalWood: 水晶木
+			CrystalWoodChair: 水晶木椅
+			CrystalWoodChest: 水晶木箱
+			CrystalWoodDoor: 水晶木门
+			CrystalWoodTorch: 水晶木火把
+			CrystalWoodWall: 水晶木墙
+			CrystalWoodWorkbench: 水晶木工作台
+			GlowingCrystal: 发光水晶
+			KingTrophy: 水晶之王纪念章
+			PolishedCrystal: 抛光水晶块
+			RadiantOre: 光辉矿
+			Callandor: 非剑之剑 (临时)
+			Cryst: 结晶体
+			CrystalEdge: 水晶之锋
+			CrystalGrenade: 水晶手雷
+			CrystalSpear: 水晶之矛
+			CrystalStaff: 水晶法杖
+			CrystiliumBlade: 晶岩阔刀
+			CrystiliumBow: 晶岩弓
+			CrystiliumSceptor: 晶岩权杖
+			Crystishae: 水晶旋刃
+			DiamondSceptor: 钻石权杖
+			EnchantedAmberStaff: 附魔琥珀法杖
+			EnchantedAmethystStaff: 附魔紫晶法杖
+			EnchantedDiamondStaff: 附魔钻石法杖
+			EnchantedEmeraldStaff: 附魔翡翠法杖
+			EnchantedRubyStaff: 附魔红宝石法杖
+			EnchantedSapphireStaff: 附魔蓝宝石法杖
+			EnchantedTopazStaff: 附魔黄玉法杖
+			GemFury: 宝石之怒
+			Gemshot: 宝石弩枪
+			Geode: 晶簇
+			Glowstrike: 荧光打击
+			ManaDrainer: 法力耗竭器
+			NebulaStaff: 星云水晶法杖
+			PrismaticBoomstick: 光棱爆破枪
+			PrismCast: 光棱催化剂
+			PrismBlade: 棱光利刃
+			PrismsEye: 棱光之眼
+			QuartzBlade: 石英刃
+			QuartzSpear: 石英矛
+			RoyalShredder: 皇家粉碎机
+			Sharpoon: 皇家射手
+			Shatterang: 粉碎回旋镖
+			Shatterocket: 粉碎火箭炮
+			Shimmer: 眩光
+			ShiningTrigger: 闪光引爆器
+			Slamborite: 水晶链锤
+			SolarSickle: 日耀水晶镰刀
+			StardustScepter: 星尘水晶权杖
+			TerraStaff: 终极宝石法杖
+			TrueAmberStaff: 真·琥珀法杖
+			TrueAmethystStaff: 真·紫晶法杖
+			TrueDiamondStaff: 真·钻石法杖
+			TrueEmeraldStaff: 真·翡翠法杖
+			TrueGemStaff: 附魔宝石法杖
+			TrueRubyStaff: 真·红宝石法杖
+			TrueSapphireStaff: 真·蓝宝石法杖
+			TrueTopazStaff: 真·黄玉法杖
+			VortexCrystalGauntlet: 星璇水晶手套
+			BrokenStaff: 破碎大法师法杖
+			CrypticCrystal: 隐秘水晶
+			CrystalBag: 宝藏袋
+			CrystalBottle: 水晶瓶
+			CrystalBottleWater: 水晶水瓶
+			CrystalKey: 水晶钥匙
+			CrystalPotion: 水晶药水
+			CrystiliumBar: 晶岩锭
+			DragonWine: 巨龙药水
+			DustbreakPotion: 尘爆药水
+			EnchantedGeode: 附魔晶簇
+			GeodeHamaxe: 晶簇锤斧
+			GeodeItem: 晶簇
+			GeodePickaxe: 晶簇镐
+			GranitePotion: 花岗岩药水
+			MarblePotion: 大理石药水
+			RadiantPrism: 光辉棱镜
+			RPC: RPC
+			ShinyGemstone: 闪光宝石
+			TwilightPotion: 黄昏药水
+		}
 
-            CrystalBreastplate: 水晶胸甲
-            CrystalHelm: 水晶头盔
-            CrystalLeggings: 水晶护胫
+		ItemTooltip: {
+			AmberRing: 小幅度增加生命恢复速度
+			CrystalJewel: 命中敌人时会创造危险的碎片
+			CrystalMonocle:
+				'''
+				+10%魔法和远程伤害以及暴击率
+				彩色失真
+				'''
+			EmeraldRing: 增加5%伤害
+			RubyRing: 你的近战武器热的闪亮
+			SapphireRing: 增加5%近战攻速
+			TopazRing: 增加5%移动速度
+			CrystalBreastplate:
+				'''
+				增加10%魔法和召唤伤害
+				增加最大召唤栏位
+				'''
+			CrystalHelm:
+				'''
+				增加8%魔法和召唤伤害
+				增加最大召唤栏位
+				'''
+			CrystalLeggings:
+				'''
+				增加7%魔法和召唤暴击率
+				增加最大召唤栏位
+				'''
+			CrystalMask: 装饰物品
+			CrystiliumBreastplate: 增加12%魔法伤害
+			CrystiliumGreaves: +9%魔法暴击率
+			CrystiliumHelmet:
+				'''
+				增加9%魔法伤害
+				+60点法力值
+				'''
+			HardCrystalBreastplate:
+				'''
+				增加8%魔法和召唤伤害
+				增加最大召唤栏位
+				'''
+			HardCrystalHelm:
+				'''
+				增加6%魔法和召唤伤害
+				增加最大召唤栏位
+				'''
+			HardCrystalLeggings: 增加2格最大召唤栏位
+			BootlegFountain: "'看起来跟真的一样, 但在48个州是非法的'"
+			CrystalWoodChest: 一个箱子
+			CrystalWoodTorch: 一个水晶火把.
+			CrystalWoodWall: 这是水晶木墙.
+			RadiantOre: 带着魔法脉动着
+			Callandor: "'我是在一个笨蛋那弄到的'"
+			Cryst: 召唤环绕着你的锋利水晶
+			CrystalEdge: "'浸泡在圣水中'"
+			CrystalStaff: 召唤一颗巨大的水晶
+			CrystiliumBlade: 发射水晶余烬
+			CrystiliumSceptor: 发射5个弹幕
+			Crystishae: "'三的力量从来不是单独出现的'"
+			DiamondSceptor: 发射爆炸性钻石
+			EnchantedAmberStaff: 创造锋利匕首
+			EnchantedAmethystStaff: "'使用暗影魔法制造'"
+			EnchantedDiamondStaff: "'攻击!'"
+			EnchantedEmeraldStaff: "'运用森林的力量'"
+			EnchantedRubyStaff: "'感受火焰的激情'"
+			EnchantedSapphireStaff: "'比冻土带还冷'"
+			EnchantedTopazStaff: "'有弹性的宝石是最好的'"
+			GemFury: 将箭矢转化为水晶箭矢
+			Gemshot: 将箭矢转化为附魔水晶箭矢
+			Geode: 破碎时非常锋利
+			Glowstrike: 召唤致命的火球
+			ManaDrainer: 汲取法力
+			NebulaStaff: "'你感受到宇宙的力量'"
+			PrismaticBoomstick: 发射彩虹光束
+			PrismCast: "'净除你的灵魂'"
+			PrismBlade: 消耗生命值.
+			PrismsEye: 光谱弓协助着你
+			QuartzBlade: 发射三叉戟
+			QuartzSpear: "'对象类 - Keter'"
+			RoyalShredder: "'粉碎你的敌人'"
+			Sharpoon: "'平滑如水晶'"
+			Shatterocket:
+				'''
+				使用RPC作为弹药
+				发射一排不同类型的弹幕两次
+				'''
+			Shimmer: 在敌人上方降下弹幕
+			ShiningTrigger: 高伤害, 低速度
+			Slamborite: 掉落宝石
+			SolarSickle: "'在夕阳余晖中闪耀'"
+			StardustScepter: "'星光与你同在'"
+			TerraStaff: "'终极宝石之力'"
+			TrueAmberStaff: "'克利奥佩特拉之刃'"
+			TrueAmethystStaff: "'毁灭光辉'"
+			TrueDiamondStaff: "'光雨打击'"
+			TrueEmeraldStaff: "'驱离你的敌人'"
+			TrueGemStaff: "'终极宝石之力'"
+			TrueRubyStaff: 发射会追踪敌人的毁灭火球
+			TrueSapphireStaff: "'致命风暴'"
+			TrueTopazStaff: "'一场十亿粒的风暴'"
+			VortexCrystalGauntlet: "'一个闪亮漩涡吞噬了你的手臂'"
+			CrypticCrystal:
+				'''
+				在水晶之心处使用
+				'吹嘘宝藏, 招引巨龙...'
+				'''
+			CrystalBag: 右键打开
+			CrystalBottle: 似乎被附魔了
+			CrystalBottleWater: 水发出了奇怪颜色的光
+			CrystalKey: 解开闪亮洞穴的秘密
+			CrystalPotion: 使水晶碎片伤害附近的敌人.
+			CrystiliumBar: "'整个世界的魔法附魔于此'"
+			DragonWine: 在10秒内使你的伤害翻倍, 但使用时会损失200点伤害
+			DustbreakPotion: 增加暴击伤害
+			GeodeItem: "'我在想里面有什么!'"
+			GranitePotion: 更多的防御, 但速度更低
+			MarblePotion: 更少的防御, 但速度更快
+			RadiantPrism: 它在剧烈地震动
+			RPC: "'火箭推进水晶'"
+			ShinyGemstone: 充满法力
+			TwilightPotion: 在夜晚时+7%伤害
+		}
 
-            CrystalMask: 水晶之王面具
+		ArmorSetBonus: {
+			CrystalSet: 行走时会留下伤害性水晶
+			CrystiliumSet: 连续命中时会使你获得更多的伤害
+			HardCrystalSet: 10%魔法和召唤伤害
+		}
 
-            CrystiliumBreastplate: 晶岩胸甲
-            CrystiliumGreaves: 晶岩护胫
-            CrystiliumHelmet: 晶岩头盔
+		NPCName: {
+			CrystalCultist: 水晶崇拜者
+			CrystalKing: 水晶之王
+			CrystalArcher: 水晶弓手
+			CrystalElemental: 水晶元素
+			CrystalMimic: 水晶模仿者
+			CrystalSlime: 水晶史莱姆
+			CrystalZombie: 水晶僵尸
+			GeodeMonster: 晶簇突变者
+		}
 
-            HardCrystalBreastplate: 硬化水晶胸甲
-            HardCrystalHelm: 硬化水晶头盔
-            HardCrystalLeggings: 硬化水晶护胫
+		Bestiary: {
+			CrystalCultist: 水晶之王最虔诚的崇拜者. 他们充当着他的精神锚点, 扭曲着神圣的祝福以维持他的影响力.
+			CrystalKing: 成为巫妖以延续自身统治的一位古代暴君的灵魂. 在生活中, 他非常的喜欢剑.
+			CrystalArcher: 发誓效忠一位早已死去的国王. 作为入会仪式, 这些教徒参加了一场可怕的祭祀仪式 - 他们用自己凡人的皮肤换取了附魔水晶.
+			CrystalElemental: 一个被远古魔法束缚在一堆水晶上的不安的灵魂. 混乱地传送使得别人很难击中它的小核心.
+			CrystalMimic: 受水晶魔法污染的神圣模仿者, 为它的新主人服务. 水晶教徒试图支配小型模仿者, 导致石化的箱子散落在洞穴的周围.
+			CrystalSlime: 每当有史莱姆落在附魔水晶上时, 都会有少量的水晶粘着在其表面上. 这些史莱姆会释放这些锯齿状的碎片, 将猎物切成一定的大小.
+			CrystalZombie: 被水晶取代的普通亡灵. 锋利的水晶碎片不断地从它的身体上脱落, 并感染新的宿主.
+			GeodeMonster: 被水晶能量扭曲的蝾螈. 珍贵的宝石从它的岩石皮肤中生长出来, 不知何故, 扭曲的祝福被净化了.
+		}
 
-            BootlegFountain: 盗版水晶喷泉
+		Biomes: {
+			CrystalBiome: {
+				// DisplayName: Crystal Biome
+				// TownNPCDialogueName: the Crystal Biome
+			}
+		}
 
-            CrystalBlock: 水晶块
-            CrystalChest: 水晶箱
-            CrystalWall: 水晶墙
-            CrystalWood: 水晶木
+		Tiles: {
+			// CrystalChest.MapEntry: Crystal Chest
+			// CrystalSapling.MapEntry: Crystal Sapling
+			// CrystalWoodChair.MapEntry: Crystal Wood Chair
+			// CrystalWoodChest.MapEntry: Crystal Wood Chest
+			// CrystalWoodDoorClosed.MapEntry: Crystal Wood Door Closed
+			// CrystalWoodDoorOpen.MapEntry: Crystal Wood Door Open
+			// CrystalWoodTorch.MapEntry: Crystal Wood Torch
+			// CrystalWoodWorkbench.MapEntry: Crystal Wood Workbench
+			// Fountain.MapEntry: Fountain
+			// KingTrophy.MapEntry: King Trophy
+		}
 
-            CrystalWoodChair: 水晶木椅
-            CrystalWoodChest: 水晶木箱
-            CrystalWoodDoor: 水晶木门
-            CrystalWoodTorch: 水晶木火把
-            CrystalWoodWall: 水晶木墙
-            CrystalWoodWorkbench: 水晶木工作台
+		Buffs: {
+			CrystalCharm: {
+				// DisplayName: Crystal Charm
+				// Description: Mods.CrystiliumMod.Buffs.CrystalCharm.Description
+			}
 
-            GlowingCrystal: 发光水晶
+			CrystalHealing: {
+				// DisplayName: Crystal Healing
+				// Description: Mods.CrystiliumMod.Buffs.CrystalHealing.Description
+			}
 
-            KingTrophy: 水晶之王纪念章
-            PolishedCrystal: 抛光水晶块
+			CrystalLeak: {
+				// DisplayName: Crystal Leak
+				// Description: Mods.CrystiliumMod.Buffs.CrystalLeak.Description
+			}
 
-            RadiantOre: 光辉矿
+			DragonFury: {
+				// DisplayName: Dragon Fury
+				// Description: Mods.CrystiliumMod.Buffs.DragonFury.Description
+			}
 
-            Callandor: 非剑之剑 (临时)
-            Cryst: 结晶体
-            CrystalEdge: 水晶之锋
-            CrystalGrenade: 水晶手雷
-            CrystalSpear: 水晶之矛
-            CrystalStaff: 水晶法杖
+			Dustbreak: {
+				// DisplayName: Dustbreak
+				// Description: Mods.CrystiliumMod.Buffs.Dustbreak.Description
+			}
 
-            CrystiliumBlade: 晶岩阔刀
-            CrystiliumBow: 晶岩弓
-            CrystiliumSceptor: 晶岩权杖
-            Crystishae: 水晶旋刃
+			GraniteBuff: {
+				// DisplayName: Granite Buff
+				// Description: Mods.CrystiliumMod.Buffs.GraniteBuff.Description
+			}
 
-            DiamondSceptor: 钻石权杖
+			MarbleBuff: {
+				// DisplayName: Marble Buff
+				// Description: Mods.CrystiliumMod.Buffs.MarbleBuff.Description
+			}
 
-            EnchantedAmberStaff: 附魔琥珀法杖
-            EnchantedAmethystStaff: 附魔紫晶法杖
-            EnchantedDiamondStaff: 附魔钻石法杖
-            EnchantedEmeraldStaff: 附魔翡翠法杖
-            EnchantedRubyStaff: 附魔红宝石法杖
-            EnchantedSapphireStaff: 附魔蓝宝石法杖
-            EnchantedTopazStaff: 附魔黄玉法杖
+			QuartzDisease: {
+				// DisplayName: Quartz Disease
+				// Description: Mods.CrystiliumMod.Buffs.QuartzDisease.Description
+			}
 
-            GemFury: 宝石之怒
-            Gemshot: 宝石弩枪
+			ThrowingBoost: {
+				// DisplayName: Throwing Boost
+				// Description: Mods.CrystiliumMod.Buffs.ThrowingBoost.Description
+			}
 
-            Geode: 晶簇
-            Glowstrike: 荧光打击
-            ManaDrainer: 法力耗竭器
-            NebulaStaff: 星云水晶法杖
-            PrismaticBoomstick: 光棱爆破枪
-            PrismCast: 光棱催化剂
-            PrismBlade: 棱光利刃
-            PrismsEye: 棱光之眼
+			Twilight: {
+				// DisplayName: Twilight
+				// Description: Mods.CrystiliumMod.Buffs.Twilight.Description
+			}
+		}
 
-            QuartzBlade: 石英刃
-            QuartzSpear: 石英矛
+		Items: {
+			AmberRing: {
+				// DisplayName: Amber Ring
+				// Tooltip: ""
+			}
 
-            RoyalShredder: 皇家粉碎机
-            Sharpoon: 皇家射手
+			AmethystRing: {
+				// DisplayName: Amethyst Ring
+				// Tooltip: ""
+			}
 
-            Shatterang: 粉碎回旋镖
-            Shatterocket: 粉碎火箭炮
+			CrystalJewel: {
+				// DisplayName: Crystal Jewel
+				// Tooltip: ""
+			}
 
-            Shimmer: 眩光
-            ShiningTrigger: 闪光引爆器
-            Slamborite: 水晶链锤
-            SolarSickle: 日耀水晶镰刀
-            StardustScepter: 星尘水晶权杖
-            TerraStaff: 终极宝石法杖
+			CrystalMonocle: {
+				// DisplayName: Crystal Monocle
+				// Tooltip: ""
+			}
 
-            TrueAmberStaff: 真·琥珀法杖
-            TrueAmethystStaff: 真·紫晶法杖
-            TrueDiamondStaff: 真·钻石法杖
-            TrueEmeraldStaff: 真·翡翠法杖
-            TrueGemStaff: 附魔宝石法杖
-            TrueRubyStaff: 真·红宝石法杖
-            TrueSapphireStaff: 真·蓝宝石法杖
-            TrueTopazStaff: 真·黄玉法杖
+			EmeraldRing: {
+				// DisplayName: Emerald Ring
+				// Tooltip: ""
+			}
 
-            VortexCrystalGauntlet: 星璇水晶手套
-            BrokenStaff: 破碎大法师法杖
-            CrypticCrystal: 隐秘水晶
+			RubyRing: {
+				// DisplayName: Ruby Ring
+				// Tooltip: ""
+			}
 
-            CrystalBag: 宝藏袋
-            CrystalBottle: 水晶瓶
-            CrystalBottleWater: 水晶水瓶
-            CrystalKey: 水晶钥匙
-            CrystalPotion: 水晶药水
+			SapphireRing: {
+				// DisplayName: Sapphire Ring
+				// Tooltip: ""
+			}
 
-            CrystiliumBar: 晶岩锭
-            DragonWine: 巨龙药水
-            DustbreakPotion: 尘爆药水
+			TopazRing: {
+				// DisplayName: Topaz Ring
+				// Tooltip: ""
+			}
 
-            EnchantedGeode: 附魔晶簇
-            GeodeHamaxe: 晶簇锤斧
-            GeodeItem: 晶簇
-            GeodePickaxe: 晶簇镐
+			CrystalBreastplate: {
+				// DisplayName: Crystal Breastplate
+				// Tooltip: ""
+			}
 
-            GranitePotion: 花岗岩药水
-            MarblePotion: 大理石药水
+			CrystalHelm: {
+				// DisplayName: Crystal Helm
+				// Tooltip: ""
+			}
 
-            RadiantPrism: 光辉棱镜
-            RPC: RPC
-            ShinyGemstone: 闪光宝石
-            TwilightPotion: 黄昏药水
-        }
+			CrystalLeggings: {
+				// DisplayName: Crystal Leggings
+				// Tooltip: ""
+			}
 
-        ItemTooltip: {
-            AmberRing: 小幅度增加生命恢复速度
-            CrystalJewel: 命中敌人时会创造危险的碎片
-            CrystalMonocle: 
-                '''
-                +10%魔法和远程伤害以及暴击率
-                彩色失真
-                '''
-            EmeraldRing: 增加5%伤害
-            RubyRing: 你的近战武器热的闪亮
-            SapphireRing: 增加5%近战攻速
-            TopazRing: 增加5%移动速度
+			CrystalMask: {
+				// DisplayName: Crystal Mask
+				// Tooltip: ""
+			}
 
-            CrystalBreastplate: 
-                '''
-                增加10%魔法和召唤伤害
-                增加最大召唤栏位
-                '''
-            CrystalHelm: 
-                '''
-                增加8%魔法和召唤伤害
-                增加最大召唤栏位
-                '''
-            CrystalLeggings: 
-                '''
-                增加7%魔法和召唤暴击率
-                增加最大召唤栏位
-                '''
-            
-            CrystalMask: 装饰物品
+			CrystiliumBreastplate: {
+				// DisplayName: Crystilium Breastplate
+				// Tooltip: ""
+			}
 
-            CrystiliumBreastplate: 增加12%魔法伤害
-            CrystiliumGreaves: +9%魔法暴击率
-            CrystiliumHelmet: 
-                '''
-                增加9%魔法伤害
-                +60点法力值
-                '''
-            HardCrystalBreastplate: 
-                '''
-                增加8%魔法和召唤伤害
-                增加最大召唤栏位
-                '''
-            HardCrystalHelm: 
-                '''
-                增加6%魔法和召唤伤害
-                增加最大召唤栏位
-                '''
-            HardCrystalLeggings: 增加2格最大召唤栏位
+			CrystiliumGreaves: {
+				// DisplayName: Crystilium Greaves
+				// Tooltip: ""
+			}
 
-            BootlegFountain: "'看起来跟真的一样, 但在48个州是非法的'"
+			CrystiliumHelmet: {
+				// DisplayName: Crystilium Helmet
+				// Tooltip: ""
+			}
 
-            CrystalWoodChest: 一个箱子
-            CrystalWoodTorch: 一个水晶火把.
-            CrystalWoodWall: 这是水晶木墙.
+			HardCrystalBreastplate: {
+				// DisplayName: Hard Crystal Breastplate
+				// Tooltip: ""
+			}
 
-            RadiantOre: 带着魔法脉动着
+			HardCrystalHelm: {
+				// DisplayName: Hard Crystal Helm
+				// Tooltip: ""
+			}
 
-            Callandor: "'我是在一个笨蛋那弄到的'"
-            Cryst: 召唤环绕着你的锋利水晶
-            CrystalEdge: "'浸泡在圣水中'"
-            CrystalStaff: 召唤一颗巨大的水晶
-            
-            CrystiliumBlade: 发射水晶余烬
-            CrystiliumSceptor: 发射5个弹幕
-            Crystishae: "'三的力量从来不是单独出现的'"
+			HardCrystalLeggings: {
+				// DisplayName: Hard Crystal Leggings
+				// Tooltip: ""
+			}
 
-            DiamondSceptor: 发射爆炸性钻石
+			BrokenStaff: {
+				// DisplayName: Broken Staff
+				// Tooltip: ""
+			}
 
-            EnchantedAmberStaff: 创造锋利匕首
-            EnchantedAmethystStaff: "'使用暗影魔法制造'"
-            EnchantedDiamondStaff: "'攻击!'"
-            EnchantedEmeraldStaff: "'运用森林的力量'"
-            EnchantedRubyStaff: "'感受火焰的激情'"
-            EnchantedSapphireStaff: "'比冻土带还冷'"
-            EnchantedTopazStaff: "'有弹性的宝石是最好的'"
+			CrypticCrystal: {
+				// DisplayName: Cryptic Crystal
+				// Tooltip: ""
+			}
 
-            GemFury: 将箭矢转化为水晶箭矢
-            Gemshot: 将箭矢转化为附魔水晶箭矢
-            
-            Geode: 破碎时非常锋利
-            Glowstrike: 召唤致命的火球
-            ManaDrainer: 汲取法力
-            NebulaStaff: "'你感受到宇宙的力量'"
-            PrismaticBoomstick: 发射彩虹光束
+			CrystalBag: {
+				// DisplayName: Crystal Bag
+				// Tooltip: ""
+			}
 
-            PrismCast: "'净除你的灵魂'"
-            PrismBlade: 消耗生命值.
-            PrismsEye: 光谱弓协助着你
+			CrystalBottle: {
+				// DisplayName: Crystal Bottle
+				// Tooltip: ""
+			}
 
-            QuartzBlade: 发射三叉戟
-            QuartzSpear: "'对象类 - Keter'"
+			CrystalBottleWater: {
+				// DisplayName: Crystal Bottle Water
+				// Tooltip: ""
+			}
 
-            RoyalShredder: "'粉碎你的敌人'"
-            Sharpoon: "'平滑如水晶'"
+			CrystalKey: {
+				// DisplayName: Crystal Key
+				// Tooltip: ""
+			}
 
-            Shatterocket: 
-                '''
-                使用RPC作为弹药
-                发射一排不同类型的弹幕两次
-                '''
-            
-            Shimmer: 在敌人上方降下弹幕
-            ShiningTrigger: 高伤害, 低速度
-            Slamborite: 掉落宝石
-            SolarSickle: "'在夕阳余晖中闪耀'"
-            StardustScepter: "'星光与你同在'"
-            TerraStaff: "'终极宝石之力'"
+			CrystalPotion: {
+				// DisplayName: Crystal Potion
+				// Tooltip: ""
+			}
 
-            TrueAmberStaff: "'克利奥佩特拉之刃'"
-            TrueAmethystStaff: "'毁灭光辉'"
-            TrueDiamondStaff: "'光雨打击'"
-            TrueEmeraldStaff: "'驱离你的敌人'"
-            TrueGemStaff: "'终极宝石之力'"
-            TrueRubyStaff: 发射会追踪敌人的毁灭火球
-            TrueSapphireStaff: "'致命风暴'"
-            TrueTopazStaff: "'一场十亿粒的风暴'"
+			CrystiliumBar: {
+				// DisplayName: Crystilium Bar
+				// Tooltip: ""
+			}
 
-            VortexCrystalGauntlet: "'一个闪亮漩涡吞噬了你的手臂'"
+			DragonWine: {
+				// DisplayName: Dragon Wine
+				// Tooltip: ""
+			}
 
-            CrypticCrystal: 
-                '''
-                在水晶之心处使用
-                '吹嘘宝藏, 招引巨龙...'
-                '''
+			DustbreakPotion: {
+				// DisplayName: Dustbreak Potion
+				// Tooltip: ""
+			}
 
-            CrystalBag: 右键打开
-            CrystalBottle: 似乎被附魔了
-            CrystalBottleWater: 水发出了奇怪颜色的光
-            CrystalKey: 解开闪亮洞穴的秘密
-            CrystalPotion: 使水晶碎片伤害附近的敌人.
+			EnchantedGeode: {
+				// DisplayName: Enchanted Geode
+				// Tooltip: ""
+			}
 
-            CrystiliumBar: "'整个世界的魔法附魔于此'"
-            DragonWine: 在10秒内使你的伤害翻倍, 但使用时会损失200点伤害
-            DustbreakPotion: 增加暴击伤害
+			GeodeHamaxe: {
+				// DisplayName: Geode Hamaxe
+				// Tooltip: ""
+			}
 
-            GeodeItem: "'我在想里面有什么!'"
+			GeodeItem: {
+				// DisplayName: Geode Item
+				// Tooltip: ""
+			}
 
-            GranitePotion: 更多的防御, 但速度更低
-            MarblePotion: 更少的防御, 但速度更快
+			GeodePickaxe: {
+				// DisplayName: Geode Pickaxe
+				// Tooltip: ""
+			}
 
-            RadiantPrism: 它在剧烈地震动
-            RPC: "'火箭推进水晶'"
-            ShinyGemstone: 充满法力
-            TwilightPotion: 在夜晚时+7%伤害
-        }
+			Geode: {
+				// DisplayName: Geode
+				// Tooltip: ""
+			}
 
-        ArmorSetBonus: {
-		CrystalSet: 行走时会留下伤害性水晶
+			GranitePotion: {
+				// DisplayName: Granite Potion
+				// Tooltip: ""
+			}
 
-		CrystiliumSet: 连续命中时会使你获得更多的伤害
+			MarblePotion: {
+				// DisplayName: Marble Potion
+				// Tooltip: ""
+			}
 
-		HardCrystalSet: 10%魔法和召唤伤害
-        }
+			BootlegFountain: {
+				// DisplayName: Bootleg Fountain
+				// Tooltip: ""
+			}
 
-        NPCName: {
-            CrystalCultist: 水晶崇拜者
-            CrystalKing: 水晶之王
-            CrystalArcher: 水晶弓手
-            CrystalElemental: 水晶元素
-            CrystalMimic: 水晶模仿者
-            CrystalSlime: 水晶史莱姆
-            CrystalZombie: 水晶僵尸
-            GeodeMonster: 晶簇突变者
-        }
+			CrystalBlock: {
+				// DisplayName: Crystal Block
+				// Tooltip: ""
+			}
 
-        Bestiary: {
-            CrystalCultist: 水晶之王最虔诚的崇拜者. 他们充当着他的精神锚点, 扭曲着神圣的祝福以维持他的影响力.
-            CrystalKing: 成为巫妖以延续自身统治的一位古代暴君的灵魂. 在生活中, 他非常的喜欢剑.
-            CrystalArcher: 发誓效忠一位早已死去的国王. 作为入会仪式, 这些教徒参加了一场可怕的祭祀仪式 - 他们用自己凡人的皮肤换取了附魔水晶.
-            CrystalElemental: 一个被远古魔法束缚在一堆水晶上的不安的灵魂. 混乱地传送使得别人很难击中它的小核心.
-            CrystalMimic: 受水晶魔法污染的神圣模仿者, 为它的新主人服务. 水晶教徒试图支配小型模仿者, 导致石化的箱子散落在洞穴的周围.
-            CrystalSlime: 每当有史莱姆落在附魔水晶上时, 都会有少量的水晶粘着在其表面上. 这些史莱姆会释放这些锯齿状的碎片, 将猎物切成一定的大小.
-            CrystalZombie: 被水晶取代的普通亡灵. 锋利的水晶碎片不断地从它的身体上脱落, 并感染新的宿主.
-            GeodeMonster: 被水晶能量扭曲的蝾螈. 珍贵的宝石从它的岩石皮肤中生长出来, 不知何故, 扭曲的祝福被净化了.
-        }
+			CrystalChest: {
+				// DisplayName: Crystal Chest
+				// Tooltip: ""
+			}
 
-        // WorldGeneration: {
-        //     PolishingCrystals: 正在抛光水晶
-        //     PolishingMoreCrystals: 正在抛光更多水晶
-        // }  
-    }
+			CrystalWall: {
+				// DisplayName: Crystal Wall
+				// Tooltip: ""
+			}
+
+			CrystalWood: {
+				// DisplayName: Crystal Wood
+				// Tooltip: ""
+			}
+
+			CrystalWoodChair: {
+				// DisplayName: Crystal Wood Chair
+				// Tooltip: ""
+			}
+
+			CrystalWoodChest: {
+				// DisplayName: Crystal Wood Chest
+				// Tooltip: ""
+			}
+
+			CrystalWoodDoor: {
+				// DisplayName: Crystal Wood Door
+				// Tooltip: ""
+			}
+
+			CrystalWoodTorch: {
+				// DisplayName: Crystal Wood Torch
+				// Tooltip: ""
+			}
+
+			CrystalWoodWall: {
+				// DisplayName: Crystal Wood Wall
+				// Tooltip: ""
+			}
+
+			CrystalWoodWorkbench: {
+				// DisplayName: Crystal Wood Workbench
+				// Tooltip: ""
+			}
+
+			Cryst: {
+				// DisplayName: Cryst
+				// Tooltip: ""
+			}
+
+			GlowingCrystal: {
+				// DisplayName: Glowing Crystal
+				// Tooltip: ""
+			}
+
+			KingTrophy: {
+				// DisplayName: King Trophy
+				// Tooltip: ""
+			}
+
+			PolishedCrystal: {
+				// DisplayName: Polished Crystal
+				// Tooltip: ""
+			}
+
+			RadiantOre: {
+				// DisplayName: Radiant Ore
+				// Tooltip: ""
+			}
+
+			RadiantPrism: {
+				// DisplayName: Radiant Prism
+				// Tooltip: ""
+			}
+
+			RPC: {
+				// DisplayName: R P C
+				// Tooltip: ""
+			}
+
+			ShinyGemstone: {
+				// DisplayName: Shiny Gemstone
+				// Tooltip: ""
+			}
+
+			TwilightPotion: {
+				// DisplayName: Twilight Potion
+				// Tooltip: ""
+			}
+
+			Callandor: {
+				// DisplayName: Callandor
+				// Tooltip: ""
+			}
+
+			CrystalEdge: {
+				// DisplayName: Crystal Edge
+				// Tooltip: ""
+			}
+
+			CrystalGrenade: {
+				// DisplayName: Crystal Grenade
+				// Tooltip: ""
+			}
+
+			CrystalSpear: {
+				// DisplayName: Crystal Spear
+				// Tooltip: ""
+			}
+
+			CrystalStaff: {
+				// DisplayName: Crystal Staff
+				// Tooltip: ""
+			}
+
+			CrystiliumBlade: {
+				// DisplayName: Crystilium Blade
+				// Tooltip: ""
+			}
+
+			CrystiliumBow: {
+				// DisplayName: Crystilium Bow
+				// Tooltip: ""
+			}
+
+			CrystiliumSceptor: {
+				// DisplayName: Crystilium Sceptor
+				// Tooltip: ""
+			}
+
+			Crystishae: {
+				// DisplayName: Crystishae
+				// Tooltip: ""
+			}
+
+			DiamondSceptor: {
+				// DisplayName: Diamond Sceptor
+				// Tooltip: ""
+			}
+
+			EnchantedAmberStaff: {
+				// DisplayName: Enchanted Amber Staff
+				// Tooltip: ""
+			}
+
+			EnchantedAmethystStaff: {
+				// DisplayName: Enchanted Amethyst Staff
+				// Tooltip: ""
+			}
+
+			EnchantedDiamondStaff: {
+				// DisplayName: Enchanted Diamond Staff
+				// Tooltip: ""
+			}
+
+			EnchantedEmeraldStaff: {
+				// DisplayName: Enchanted Emerald Staff
+				// Tooltip: ""
+			}
+
+			EnchantedRubyStaff: {
+				// DisplayName: Enchanted Ruby Staff
+				// Tooltip: ""
+			}
+
+			EnchantedSapphireStaff: {
+				// DisplayName: Enchanted Sapphire Staff
+				// Tooltip: ""
+			}
+
+			EnchantedTopazStaff: {
+				// DisplayName: Enchanted Topaz Staff
+				// Tooltip: ""
+			}
+
+			GemFury: {
+				// DisplayName: Gem Fury
+				// Tooltip: ""
+			}
+
+			Gemshot: {
+				// DisplayName: Gemshot
+				// Tooltip: ""
+			}
+
+			Glowstrike: {
+				// DisplayName: Glowstrike
+				// Tooltip: ""
+			}
+
+			ManaDrainer: {
+				// DisplayName: Mana Drainer
+				// Tooltip: ""
+			}
+
+			NebulaStaff: {
+				// DisplayName: Nebula Staff
+				// Tooltip: ""
+			}
+
+			PrismaticBoomstick: {
+				// DisplayName: Prismatic Boomstick
+				// Tooltip: ""
+			}
+
+			PrismBlade: {
+				// DisplayName: Prism Blade
+				// Tooltip: ""
+			}
+
+			PrismCast: {
+				// DisplayName: Prism Cast
+				// Tooltip: ""
+			}
+
+			PrismsEye: {
+				// DisplayName: Prisms Eye
+				// Tooltip: ""
+			}
+
+			QuartzBlade: {
+				// DisplayName: Quartz Blade
+				// Tooltip: ""
+			}
+
+			QuartzSpear: {
+				// DisplayName: Quartz Spear
+				// Tooltip: ""
+			}
+
+			RoyalShredder: {
+				// DisplayName: Royal Shredder
+				// Tooltip: ""
+			}
+
+			Sharpoon: {
+				// DisplayName: Sharpoon
+				// Tooltip: ""
+			}
+
+			Shatterang: {
+				// DisplayName: Shatterang
+				// Tooltip: ""
+			}
+
+			Shatterocket: {
+				// DisplayName: Shatterocket
+				// Tooltip: ""
+			}
+
+			Shimmer: {
+				// DisplayName: Shimmer
+				// Tooltip: ""
+			}
+
+			ShiningTrigger: {
+				// DisplayName: Shining Trigger
+				// Tooltip: ""
+			}
+
+			Slamborite: {
+				// DisplayName: Slamborite
+				// Tooltip: ""
+			}
+
+			SolarSickle: {
+				// DisplayName: Solar Sickle
+				// Tooltip: ""
+			}
+
+			StardustScepter: {
+				// DisplayName: Stardust Scepter
+				// Tooltip: ""
+			}
+
+			TerraStaff: {
+				// DisplayName: Terra Staff
+				// Tooltip: ""
+			}
+
+			TrueAmberStaff: {
+				// DisplayName: True Amber Staff
+				// Tooltip: ""
+			}
+
+			TrueAmethystStaff: {
+				// DisplayName: True Amethyst Staff
+				// Tooltip: ""
+			}
+
+			TrueDiamondStaff: {
+				// DisplayName: True Diamond Staff
+				// Tooltip: ""
+			}
+
+			TrueEmeraldStaff: {
+				// DisplayName: True Emerald Staff
+				// Tooltip: ""
+			}
+
+			TrueGemStaff: {
+				// DisplayName: True Gem Staff
+				// Tooltip: ""
+			}
+
+			TrueRubyStaff: {
+				// DisplayName: True Ruby Staff
+				// Tooltip: ""
+			}
+
+			TrueSapphireStaff: {
+				// DisplayName: True Sapphire Staff
+				// Tooltip: ""
+			}
+
+			TrueTopazStaff: {
+				// DisplayName: True Topaz Staff
+				// Tooltip: ""
+			}
+
+			VortexCrystalGauntlet: {
+				// DisplayName: Vortex Crystal Gauntlet
+				// Tooltip: ""
+			}
+		}
+
+		NPCs: {
+			// CrystalCultist.DisplayName: Crystal Cultist
+			// CrystalKing.DisplayName: Crystal King
+			// CrystalArcher.DisplayName: Crystal Archer
+			// CrystalElemental.DisplayName: Crystal Elemental
+			// CrystalMimic.DisplayName: Crystal Mimic
+			// CrystalSlime.DisplayName: Crystal Slime
+			// CrystalZombie.DisplayName: Crystal Zombie
+			// GeodeMonster.DisplayName: Geode Monster
+		}
+
+		Projectiles: {
+			// AmberBlade.DisplayName: Amber Blade
+			// AmberDagger.DisplayName: Amber Dagger
+			// BlockRiser.DisplayName: Block Riser
+			// BouncyTopaz.DisplayName: Bouncy Topaz
+			// CallandorSlice.DisplayName: Callandor Slice
+			// CrystalArrow.DisplayName: Crystal Arrow
+			// CrystalArrowPlayer.DisplayName: Crystal Arrow Player
+			// CrystalBomb.DisplayName: Crystal Bomb
+			// CrystalFire.DisplayName: Crystal Fire
+			// CrystalGrenadeProj.DisplayName: Crystal Grenade Proj
+			// CrystalDeathShard.DisplayName: Crystal Death Shard
+			// CultistFire.DisplayName: Cultist Fire
+			// Kingwave.DisplayName: Kingwave
+			// Slasher.DisplayName: Slasher
+			// CrystalSceptorProj.DisplayName: Crystal Sceptor Proj
+			// CrystalSpear.DisplayName: Crystal Spear
+			// CrystiliumBladeProj.DisplayName: Crystilium Blade Proj
+			// Crystishae.DisplayName: Crystishae
+			// CrystProj.DisplayName: Cryst Proj
+			// DiamondBomb.DisplayName: Diamond Bomb
+			// DiamondExplosion.DisplayName: Diamond Explosion
+			// EnchantedCrystalArrow.DisplayName: Enchanted Crystal Arrow
+			// Eshatter.DisplayName: Eshatter
+			// FireGem.DisplayName: Fire Gem
+			// AmberProjectile.DisplayName: Amber Projectile
+			// AmethystProjectile.DisplayName: Amethyst Projectile
+			// DiamondProjectile.DisplayName: Diamond Projectile
+			// EmeraldProjectile.DisplayName: Emerald Projectile
+			// RubyProjectile.DisplayName: Ruby Projectile
+			// SapphireProjectile.DisplayName: Sapphire Projectile
+			// TopazProjectile.DisplayName: Topaz Projectile
+			// Geode.DisplayName: Geode
+			// GiantDiamond.DisplayName: Giant Diamond
+			// Leaf.DisplayName: Leaf
+			// ManaBeam.DisplayName: Mana Beam
+			// SpiritArrow.DisplayName: Spirit Arrow
+			// SpiritBow.DisplayName: Spirit Bow
+			// NebulaShard.DisplayName: Nebula Shard
+			// PrismSlug.DisplayName: Prism Slug
+			// QuartzInfectant.DisplayName: Quartz Infectant
+			// QuartzSpearProj.DisplayName: Quartz Spear Proj
+			// QuartzTrident.DisplayName: Quartz Trident
+			// RPC.DisplayName: R P C
+			// SandParticle.DisplayName: Sand Particle
+			// SapphireDroplet.DisplayName: Sapphire Droplet
+			// SapphirePortal.DisplayName: Sapphire Portal
+			// SapphireSpike.DisplayName: Sapphire Spike
+			// Shatter1.DisplayName: Shatter1
+			// Shatter2.DisplayName: Shatter2
+			// Shatter3.DisplayName: Shatter3
+			// ShatterangProj.DisplayName: Shatterang Proj
+			// ShatterEnemy1.DisplayName: Shatter Enemy1
+			// ShatterEnemy2.DisplayName: Shatter Enemy2
+			// ShatterEnemy3.DisplayName: Shatter Enemy3
+			// GemstoneFlailProj.DisplayName: Gemstone Flail Proj
+			// SlamboriteProj.DisplayName: Slamborite Proj
+			// SolarCrystal.DisplayName: Solar Crystal
+			// StardustCrystal.DisplayName: Stardust Crystal
+			// StardustDiamond.DisplayName: Stardust Diamond
+			// TrueAmethystProjectile.DisplayName: True Amethyst Projectile
+			// TrueGemFire.DisplayName: True Gem Fire
+			// TerraGemProj.DisplayName: Terra Gem Proj
+			// TrueLeaf.DisplayName: True Leaf
+			// TrueRubyProjectile.DisplayName: True Ruby Projectile
+			// VortexCrystal.DisplayName: Vortex Crystal
+			// VortexPortal.DisplayName: Vortex Portal
+		}
+	}
 }

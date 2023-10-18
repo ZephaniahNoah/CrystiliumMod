@@ -40,16 +40,16 @@ namespace CrystiliumMod.Content.Tiles
 			TileObjectData.newTile.AnchorBottom = new AnchorData(AnchorType.SolidTile | AnchorType.SolidWithTop | AnchorType.SolidSide, TileObjectData.newTile.Width, 0);
 			TileObjectData.addTile(Type);
 
-			ModTranslation name = CreateMapEntryName();
-			name.SetDefault("Crystal Chest");
+			LocalizedText name = CreateMapEntryName();
+			//name.SetDefault("Crystal Chest");
 			AddMapEntry(new Color(124, 83, 166), name, MapChestName);
-			name = CreateMapEntryName(Name + "_Locked");
-			name.SetDefault("Locked Crystal Chest");
+			//name = CreateMapEntryName(Name + "_Locked");
+			//name.SetDefault("Locked Crystal Chest");
 			AddMapEntry(new Color(124, 83, 166), name, MapChestName);
 			DustType = ModContent.DustType<Dusts.Sparkle>();
 			AdjTiles = new int[] { TileID.Containers };
-			ChestDrop = ModContent.ItemType<Items.Placeable.CrystalChest>();
-			ContainerName.SetDefault("Crystal Wood Chest");
+			//ChestDrop = ModContent.ItemType<Items.Placeable.CrystalChest>();
+			//ContainerName.SetDefault("Crystal Wood Chest");
 		}
 
 		public string MapChestName(string name, int i, int j)
@@ -115,11 +115,11 @@ namespace CrystiliumMod.Content.Tiles
 			return Chest.CanDestroyChest(left, top);
 		}
 
-		public override void KillMultiTile(int i, int j, int frameX, int frameY)
-		{
-			Item.NewItem(new EntitySource_TileBreak(i, j), new Vector2(i, j) * 16, 32, 32, ChestDrop);
-			Chest.DestroyChest(i, j);
-		}
+		// public override void KillMultiTile(int i, int j, int frameX, int frameY)
+		// {
+		// 	Item.NewItem(new EntitySource_TileBreak(i, j), new Vector2(i, j) * 16, 32, 32, ChestDrop);
+		// 	Chest.DestroyChest(i, j);
+		// }
 
 		public override bool RightClick(int i, int j)
 		{
@@ -175,7 +175,7 @@ namespace CrystiliumMod.Content.Tiles
 					int key = ModContent.ItemType<Items.CrystalKey>();
 					if (player.ConsumeItem(key) && Chest.Unlock(left, top)) {
 						if (Main.netMode == 1) {
-							NetMessage.SendData(MessageID.Unlock, -1, -1, null, player.whoAmI, 1f, (float)left, (float)top);
+							NetMessage.SendData(MessageID.LockAndUnlock/*was Unlock*/, -1, -1, null, player.whoAmI, 1f, (float)left, (float)top);
 						}
 					}
 				}

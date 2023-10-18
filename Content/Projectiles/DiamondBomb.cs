@@ -70,7 +70,7 @@ namespace CrystiliumMod.Content.Projectiles
 			Projectile.NewProjectile(Projectile.GetSource_Death(), Projectile.Center.X, Projectile.Center.Y, 0, 0, ModContent.ProjectileType<DiamondExplosion>(), Projectile.damage, 0, Main.myPlayer);
 		}
 
-		public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
+		public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
 		{
 			Projectile.Kill();
 		}

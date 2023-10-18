@@ -7,7 +7,7 @@ namespace CrystiliumMod.Content.Projectiles
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("TrueAmethystProjectile");
+			//DisplayName.SetDefault("TrueAmethystProjectile");
 		}
 
 		public override void SetDefaults()

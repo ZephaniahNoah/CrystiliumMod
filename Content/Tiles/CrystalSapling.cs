@@ -4,6 +4,7 @@ using Terraria;
 using Terraria.DataStructures;
 using Terraria.Enums;
 using Terraria.ID;
+using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
@@ -34,8 +35,8 @@ namespace CrystiliumMod.Content.Tiles
 			TileObjectData.addTile(Type);
 			TileID.Sets.CommonSapling[Type] = true;
 			TileID.Sets.TreeSapling[Type] = true;
-			ModTranslation name = CreateMapEntryName();
-			name.SetDefault("Sapling");
+			LocalizedText name = CreateMapEntryName();
+			//name.SetDefault("Sapling");
 			AddMapEntry(new Color(200, 200, 200), name);
 			DustType = ModContent.DustType<Dusts.Sparkle>();
 			AdjTiles = new int[] { TileID.Saplings };

@@ -10,7 +10,7 @@ namespace CrystiliumMod.Content.Projectiles
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("TrueLeaf");
+			//DisplayName.SetDefault("TrueLeaf");
 			Main.projFrames[Projectile.type] = 5;
 		}
 

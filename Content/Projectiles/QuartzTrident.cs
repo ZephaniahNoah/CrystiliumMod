@@ -9,7 +9,7 @@ namespace CrystiliumMod.Content.Projectiles
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Quartz Trident");
+			//DisplayName.SetDefault("Quartz Trident");
 			ProjectileID.Sets.TrailCacheLength[Projectile.type] = 9;
 			ProjectileID.Sets.TrailingMode[Projectile.type] = 0;
 		}

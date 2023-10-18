@@ -7,7 +7,7 @@ namespace CrystiliumMod.Content.Projectiles.CrystalKing
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Cultist Fire");
+			//DisplayName.SetDefault("Cultist Fire");
 			Main.projFrames[Projectile.type] = 4;
 		}
 

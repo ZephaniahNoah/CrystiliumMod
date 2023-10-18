@@ -30,7 +30,7 @@ namespace CrystiliumMod.Content.Items
 			Item.rare = 1;
 		}
 
-		public override void ExtractinatorUse(ref int resultType, ref int resultStack)
+		public override void ExtractinatorUse(int extractinatorBlockType, ref int resultType, ref int resultStack)
 		{
 			var GemTypeAndStackChooser = new WeightedRandom<Tuple<int,int>>();
 			GemTypeAndStackChooser.Add(new Tuple<int, int>(ItemID.Sapphire, Main.rand.Next(1, 5)));

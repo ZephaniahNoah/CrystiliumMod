@@ -12,7 +12,7 @@ namespace CrystiliumMod.Content.Projectiles
 
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Slamborite");
+			//DisplayName.SetDefault("Slamborite");
 		}
 
 		public override void SetDefaults()

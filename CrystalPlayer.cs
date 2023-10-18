@@ -34,7 +34,7 @@ namespace CrystiliumMod
 			crystalCharm = false;
 		}
 
-		public override void Hurt(bool pvp, bool quiet, double damage, int hitDirection, bool crit, int cooldownCounter)
+		public override void OnHurt(Player.HurtInfo info)
 		{
 			if (CrystalAcc)
 			{
@@ -51,33 +51,33 @@ namespace CrystiliumMod
 			}
 		}
 
-		private void ApplyCritBonus(ref int damage, ref bool crit)
+		private void ApplyCritBonus(ref NPC.HitModifiers modifiers)
 		{
-			if (crit)
+			if (modifiers.CritDamage.Base > 0)
 			{
-				damage = (int)(damage * critDmgMult);
+				modifiers.FinalDamage *= critDmgMult;
 			}
 		}
 
-		public override void ModifyHitNPC(Item item, NPC target, ref int damage, ref float knockback, ref bool crit)
+		public override void ModifyHitNPC(NPC target, ref NPC.HitModifiers modifiers)
 		{
-			ApplyCritBonus(ref damage, ref crit);
+			ApplyCritBonus(ref modifiers);
 		}
 
-		public override void ModifyHitNPCWithProj(Projectile proj, NPC target, ref int damage, ref float knockback, ref bool crit, ref int hitDirection)
+		public override void ModifyHitNPCWithProj(Projectile proj, NPC target, ref NPC.HitModifiers modifiers)
 		{
-			ApplyCritBonus(ref damage, ref crit);
+			ApplyCritBonus(ref modifiers);
 		}
 
-		public override void ModifyHitPvp(Item item, Player target, ref int damage, ref bool crit)
-		{
-			ApplyCritBonus(ref damage, ref crit);
-		}
+		// public override void ModifyHitPvp(Item item, Player target, ref int damage, ref bool crit)
+		// {
+		// 	ApplyCritBonus(ref damage, ref crit);
+		// }
 
-		public override void ModifyHitPvpWithProj(Projectile proj, Player target, ref int damage, ref bool crit)
-		{
-			ApplyCritBonus(ref damage, ref crit);
-		}
+		// public override void ModifyHitPvpWithProj(Projectile proj, Player target, ref int damage, ref bool crit)
+		// {
+		// 	ApplyCritBonus(ref damage, ref crit);
+		// }
 
 		private void UpdateCharmBuff(NPC npc)
 		{
@@ -105,23 +105,24 @@ namespace CrystiliumMod
 			}
 		}
 
-		public override void OnHitNPC(Item item, NPC target, int damage, float knockback, bool crit)
+		public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
 		{
 			UpdateCharmBuff(target);
 		}
 
-		public override void OnHitNPCWithProj(Projectile proj, NPC target, int damage, float knockback, bool crit)
+		public override void OnHitNPCWithProj(Projectile proj, NPC target, NPC.HitInfo hit, int damageDone)
 		{
 			UpdateCharmBuff(target);
 		}
 
-		public override bool PreHurt(bool pvp, bool quiet, ref int damage, ref int hitDirection, ref bool crit, ref bool customDamage, ref bool playSound, ref bool genGore, ref PlayerDeathReason damageSource, ref int cooldownCounter)
+		public override void ModifyHurt(ref Player.HurtModifiers modifiers)
 		{
 			if (constantDamage > 0 || percentDamage > 0f)
 			{
 				int damageFromPercent = (int)(Player.statLifeMax2 * percentDamage);
-				damage = Math.Max(constantDamage, damageFromPercent);
-				customDamage = true;
+				//damage = Math.Max(constantDamage, damageFromPercent);
+				//customDamage = true;
+				modifiers.FinalDamage.Base = Math.Max(constantDamage, damageFromPercent);
 			}
 			else if (defenseEffect >= 0f)
 			{
@@ -129,17 +130,16 @@ namespace CrystiliumMod
 				{
 					defenseEffect *= 1.5f;
 				}
-				damage -= (int)(Player.statDefense * defenseEffect);
-				if (damage < 0)
+				modifiers.FinalDamage.Base -= (int)(Player.statDefense * defenseEffect);
+				if (modifiers.FinalDamage.Base < 0)
 				{
-					damage = 1;
+					modifiers.FinalDamage.Base = 1;
 				}
-				customDamage = true;
+				//customDamage = true;
 			}
 			constantDamage = 0;
 			percentDamage = 0f;
 			defenseEffect = -1f;
-			return true;
 		}
 
 		public override void PreUpdateBuffs()

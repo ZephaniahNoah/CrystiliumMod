@@ -13,7 +13,7 @@ namespace CrystiliumMod.Content.Projectiles
 
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Crystal Grenade");
+			//DisplayName.SetDefault("Crystal Grenade");
 		}
 		private int oldDamage = 0;
 		public override void SetDefaults()

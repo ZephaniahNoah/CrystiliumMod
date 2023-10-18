@@ -10,7 +10,7 @@ namespace CrystiliumMod.Content.Projectiles
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Fire Gem");
+			//DisplayName.SetDefault("Fire Gem");
 			Main.projFrames[Projectile.type] = 3;
 		}
 

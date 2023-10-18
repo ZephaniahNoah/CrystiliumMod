@@ -52,7 +52,7 @@ namespace CrystiliumMod.Content.Items.Weapons
 			return false;
 		}
 
-		public override void OnHitNPC(Player player, NPC target, int damage, float knockback, bool crit)
+		public override void OnHitNPC(Player player, NPC target, NPC.HitInfo hit, int damageDone)
 		{
 			for (int J = 1; J < 3; J++)
 			{

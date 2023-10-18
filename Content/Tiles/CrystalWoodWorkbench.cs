@@ -4,6 +4,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 using Terraria.DataStructures;
+using Terraria.Localization;
 
 namespace CrystiliumMod.Content.Tiles
 {
@@ -20,8 +21,8 @@ namespace CrystiliumMod.Content.Tiles
 			TileObjectData.newTile.CoordinateHeights = new int[] { 18 };
 			TileObjectData.addTile(Type);
 			AddToArray(ref TileID.Sets.RoomNeeds.CountsAsTable);
-			ModTranslation name = CreateMapEntryName();
-			name.SetDefault("Crystal Wood Workbench");
+			LocalizedText name = CreateMapEntryName();
+			//name.SetValue("Crystal Wood Workbench");
 			AddMapEntry(new Color(250, 140, 250), name);
 			if (!Main.dedServ)
 				DustType = Mod.Find<ModDust>("CrystalDust").Type;

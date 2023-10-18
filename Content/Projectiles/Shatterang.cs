@@ -8,7 +8,7 @@ namespace CrystiliumMod.Content.Projectiles
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Shatterang");
+			//DisplayName.SetDefault("Shatterang");
 		}
 
 		public override void SetDefaults()
@@ -24,7 +24,7 @@ namespace CrystiliumMod.Content.Projectiles
 			Projectile.extraUpdates = 1;
 		}
 
-		public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
+		public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
 		{
 			for (int h = 0; h < 22; h++)
 			{

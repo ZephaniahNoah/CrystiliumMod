@@ -4,6 +4,7 @@ using Terraria.Audio;
 using Terraria.DataStructures;
 using Terraria.Enums;
 using Terraria.ID;
+using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
@@ -30,8 +31,8 @@ namespace CrystiliumMod.Content.Tiles
 			TileObjectData.newTile.CoordinatePadding = 2;
 			TileObjectData.addTile(Type);
 			AnimationFrameHeight = 108;
-			ModTranslation name = CreateMapEntryName();
-			name.SetDefault("Crystal Fountain");
+			LocalizedText name = CreateMapEntryName();
+			//name.SetDefault("Crystal Fountain");
 			AddMapEntry(new Color(200, 200, 200), name);
 		}
 

@@ -10,7 +10,7 @@ namespace CrystiliumMod.Content.Projectiles
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Cryst");
+			//DisplayName.SetDefault("Cryst");
 			ProjectileID.Sets.TrailCacheLength[Projectile.type] = 9;
 			ProjectileID.Sets.TrailingMode[Projectile.type] = 0;
 		}

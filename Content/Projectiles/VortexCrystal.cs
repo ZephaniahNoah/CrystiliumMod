@@ -7,7 +7,7 @@ namespace CrystiliumMod.Content.Projectiles //We need this to basically indicate
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Vortex crystal");
+			//DisplayName.SetDefault("Vortex crystal");
 		}
 
 		public override void SetDefaults()

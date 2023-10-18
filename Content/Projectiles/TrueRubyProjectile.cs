@@ -9,7 +9,7 @@ namespace CrystiliumMod.Content.Projectiles
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("True Ruby Gem");
+			//DisplayName.SetDefault("True Ruby Gem");
 			Main.projFrames[Projectile.type] = 4;
 		}
 

@@ -10,7 +10,7 @@ namespace CrystiliumMod.Content.Projectiles //We need this to basically indicate
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Prism Bolt");
+			//DisplayName.SetDefault("Prism Bolt");
 			Main.projFrames[Projectile.type] = 7;
 		}
 

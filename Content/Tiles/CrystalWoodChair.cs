@@ -5,6 +5,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 using Terraria.DataStructures;
+using Terraria.Localization;
 
 namespace CrystiliumMod.Content.Tiles
 {
@@ -26,8 +27,8 @@ namespace CrystiliumMod.Content.Tiles
 			TileObjectData.addAlternate(1); //facing right will use the second texture style
 			TileObjectData.addTile(Type);
 			AddToArray(ref TileID.Sets.RoomNeeds.CountsAsChair);
-			ModTranslation name = CreateMapEntryName();
-			name.SetDefault("CrystalWood Chair");
+			LocalizedText name = CreateMapEntryName();
+			//name.SetDefault("CrystalWood Chair");
 			AddMapEntry(new Color(250, 140, 250), name);
 			if (!Main.dedServ)
 				DustType = Mod.Find<ModDust>("CrystalDust").Type;

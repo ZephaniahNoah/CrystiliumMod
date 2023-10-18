@@ -10,7 +10,7 @@ namespace CrystiliumMod.Content.Projectiles
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Sand Particle");
+			//DisplayName.SetDefault("Sand Particle");
 		}
 
 		public override void SetDefaults()

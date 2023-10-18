@@ -7,7 +7,7 @@ namespace CrystiliumMod.Content.Projectiles.GemAmmo
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Emerald Bullet");
+			//DisplayName.SetDefault("Emerald Bullet");
 			ProjectileID.Sets.TrailCacheLength[Projectile.type] = 5;
 			ProjectileID.Sets.TrailingMode[Projectile.type] = 0;
 		}

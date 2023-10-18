@@ -17,7 +17,7 @@ namespace CrystiliumMod.Content.Tiles
             Main.tileLighted[Type] = false;
 			HitSound = SoundID.Item27;
 			DustType = ModContent.DustType<Dusts.Sparkle>();
-			ItemDrop = ModContent.ItemType<Items.Placeable.RadiantOre>();
+			//ItemDrop = ModContent.ItemType<Items.Placeable.RadiantOre>();
 			AddMapEntry(new Color(255, 93, 245));
 		}
 

@@ -6,12 +6,11 @@ namespace CrystiliumMod.Content.NPCs
 {
 	public class Wizard : GlobalNPC
 	{
-		public override void SetupShop(int type, Chest shop, ref int nextSlot)
+		public override void ModifyShop(NPCShop shop)
 		{
-			if (type == NPCID.Wizard)
+			if (shop.NpcType == NPCID.Wizard)
 			{
-				shop.item[nextSlot].SetDefaults(ModContent.ItemType<Items.CrystalBottle>());
-				nextSlot++;
+				shop.Add(ModContent.ItemType<Items.CrystalBottle>());
 			}
 		}
 	}

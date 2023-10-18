@@ -11,7 +11,7 @@ namespace CrystiliumMod.Content.Projectiles
 
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Block Riser");
+			//DisplayName.SetDefault("Block Riser");
 		}
 
 		public override void SetDefaults()

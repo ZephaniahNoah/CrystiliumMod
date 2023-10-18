@@ -41,7 +41,7 @@ namespace CrystiliumMod.Content.NPCs.Bosses
 			});
 		}
 
-		public override void HitEffect(int hitDirection, double damage)
+		public override void HitEffect(NPC.HitInfo hit)
 		{
 			//Putting gores in HitEffect prevents gores when scripting NPC death (setting life to 0)
 			if (NPC.life <= 0)

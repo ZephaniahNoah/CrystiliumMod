@@ -12,7 +12,7 @@ namespace CrystiliumMod.Content.Projectiles
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Enchanted Crystal Arrow");
+			//DisplayName.SetDefault("Enchanted Crystal Arrow");
 		}
 
 		public override void SetDefaults()
@@ -40,7 +40,7 @@ namespace CrystiliumMod.Content.Projectiles
 			return false;
 		}
 
-		public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
+		public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
 		{
 			Projectile.penetrate--;
 			if (Projectile.penetrate <= 0)

@@ -7,7 +7,7 @@ namespace CrystiliumMod.Content.Projectiles.GemAmmo
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Ruby Bullet");
+			//DisplayName.SetDefault("Ruby Bullet");
 			ProjectileID.Sets.TrailCacheLength[Projectile.type] = 5;
 			ProjectileID.Sets.TrailingMode[Projectile.type] = 0;
 		}

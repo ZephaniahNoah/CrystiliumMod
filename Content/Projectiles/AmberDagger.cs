@@ -9,7 +9,7 @@ namespace CrystiliumMod.Content.Projectiles
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Amber Dagger");
+			//DisplayName.SetDefault("Amber Dagger");
 			ProjectileID.Sets.TrailCacheLength[Projectile.type] = 9;
 			ProjectileID.Sets.TrailingMode[Projectile.type] = 0;
 		}

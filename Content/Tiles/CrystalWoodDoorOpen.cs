@@ -3,6 +3,7 @@ using Terraria;
 using Terraria.DataStructures;
 using Terraria.Enums;
 using Terraria.ID;
+using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
@@ -57,13 +58,13 @@ namespace CrystiliumMod.Content.Tiles
 			TileObjectData.addTile(Type);
 			AddToArray(ref TileID.Sets.RoomNeeds.CountsAsDoor);
 			TileID.Sets.HousingWalls[Type] = true; //needed for non-solid blocks to count as walls
-			ModTranslation name = CreateMapEntryName();
-			name.SetDefault("CrystalWood Door");
+			LocalizedText name = CreateMapEntryName();
+			//name.SetDefault("CrystalWood Door");
 			AddMapEntry(new Color(250, 140, 250), name);
 			DustType = ModContent.DustType<Dusts.CrystalDust>();
 			TileID.Sets.DisableSmartCursor[Type] = true;
 			AdjTiles = new int[] { TileID.OpenDoor };
-			CloseDoorID = ModContent.TileType<Tiles.CrystalWoodDoorClosed>();
+			//CloseDoorID = ModContent.TileType<Tiles.CrystalWoodDoorClosed>();
 		}
 
 		public override void NumDust(int i, int j, bool fail, ref int num)

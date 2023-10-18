@@ -7,7 +7,7 @@ namespace CrystiliumMod.Content.Projectiles
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Crystal Staff Spike");
+			//DisplayName.SetDefault("Crystal Staff Spike");
 		}
 
 		public override void SetDefaults()

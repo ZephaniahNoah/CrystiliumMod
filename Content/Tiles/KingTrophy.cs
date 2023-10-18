@@ -5,6 +5,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 using Terraria.DataStructures;
+using Terraria.Localization;
 
 namespace CrystiliumMod.Content.Tiles
 {
@@ -20,8 +21,8 @@ namespace CrystiliumMod.Content.Tiles
 			TileObjectData.addTile(Type);
 			DustType = 7;
 			TileID.Sets.DisableSmartCursor[Type] = true;
-			ModTranslation name = CreateMapEntryName();
-			name.SetDefault("Trophy");
+			LocalizedText name = CreateMapEntryName();
+			//name.SetDefault("Trophy");
 			AddMapEntry(new Color(120, 85, 60), name);
 		}
 

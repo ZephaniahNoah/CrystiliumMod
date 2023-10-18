@@ -13,7 +13,7 @@ namespace CrystiliumMod.Content.Projectiles
 
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("CallandorSlice");
+			//DisplayName.SetDefault("CallandorSlice");
 			Main.projFrames[ModContent.ProjectileType<CallandorSlice>()] = 28;
 		}
 

@@ -12,7 +12,7 @@ namespace CrystiliumMod.Content.Projectiles
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("GemFire");
+			//DisplayName.SetDefault("GemFire");
 			Main.projFrames[Projectile.type] = 3;
 		}
 
@@ -53,7 +53,7 @@ namespace CrystiliumMod.Content.Projectiles
 			}
 		}
 
-		public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
+		public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
 		{
 			Projectile.penetrate--;
 			if (Projectile.penetrate <= 0)

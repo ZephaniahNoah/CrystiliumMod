@@ -16,7 +16,7 @@ namespace CrystiliumMod.Content.Tiles
 			Main.tileLighted[Type] = false;
 			DustType = ModContent.DustType<Dusts.Sparkle>();
 			HitSound = SoundID.Item27;
-			ItemDrop = ModContent.ItemType<Items.Placeable.CrystalBlock>();
+			//ItemDrop = ModContent.ItemType<Items.Placeable.CrystalBlock>();
 			AddMapEntry(new Color(19, 163, 189));
 		}
 
@@ -41,12 +41,12 @@ namespace CrystiliumMod.Content.Tiles
 					if (Main.rand.Next(5) == 0)
 					{
 						WorldGen.PlaceObject(i - 1, j - 1, ModContent.TileType<Crystal>());
-						NetMessage.SendObjectPlacment(-1, i - 1, j - 1, ModContent.TileType<Crystal>(), 0, 0, -1, -1);
+						NetMessage.SendObjectPlacement(-1, i - 1, j - 1, ModContent.TileType<Crystal>(), 0, 0, -1, -1);
 					}
 					else
 					{
 						WorldGen.PlaceObject(i, j - 1, ModContent.TileType<CrystalSapling>());
-						NetMessage.SendObjectPlacment(-1, i, j - 1, ModContent.TileType<CrystalSapling>(), 0, 0, -1, -1);
+						NetMessage.SendObjectPlacement(-1, i, j - 1, ModContent.TileType<CrystalSapling>(), 0, 0, -1, -1);
 					}
 				}
 			}

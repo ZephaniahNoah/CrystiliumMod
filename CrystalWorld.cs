@@ -62,7 +62,7 @@ namespace CrystiliumMod
 			downedCrystalKing = flags[0];
 		}
 
-		public override void ModifyWorldGenTasks(List<GenPass> tasks, ref float totalWeight)
+		public override void ModifyWorldGenTasks(List<GenPass> tasks, ref double totalWeight)
 		{
 			BiomeCenters = new List<Point>();
 
@@ -82,7 +82,7 @@ namespace CrystiliumMod
 				for (int i = 0; i < (int)Main.maxTilesX / 1400; i++)
 				{
 					int Xvalue = WorldGen.genRand.Next(50, Main.maxTilesX - 700);
-					int Yvalue = WorldGen.genRand.Next((int)WorldGen.rockLayer - 200, Main.maxTilesY - 700);
+					int Yvalue = WorldGen.genRand.Next((int)Main.rockLayer - 200, Main.maxTilesY - 700);
 					int XvalueHigh = Xvalue + 800;
 					int YvalueHigh = Yvalue + 800;
 					int XvalueMid = Xvalue + 400;

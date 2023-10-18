@@ -14,7 +14,7 @@ namespace CrystiliumMod.Content.Projectiles.TrueGems
 
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("True gem");
+			//DisplayName.SetDefault("True gem");
 		}
 
 		public override void SetDefaults()
@@ -49,7 +49,7 @@ namespace CrystiliumMod.Content.Projectiles.TrueGems
 			return false;
 		}
 
-		public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
+		public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
 		{
 			Projectile.penetrate--;
 			if (Projectile.penetrate <= 0)

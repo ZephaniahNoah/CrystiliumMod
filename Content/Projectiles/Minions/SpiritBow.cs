@@ -12,7 +12,7 @@ namespace CrystiliumMod.Content.Projectiles.Minions
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Spirit Bow");
+			//DisplayName.SetDefault("Spirit Bow");
 			Main.projFrames[Projectile.type] = 9;
 			ProjectileID.Sets.MinionTargettingFeature[Projectile.type] = true;
 		}
